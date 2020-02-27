@@ -27,6 +27,7 @@ Array [
   useAppleNetworking: false
 
   generateExample: true
+  exampleSymlinkDisabled: false
   exampleName: example
   writeExamplePodfile: false
 ",
@@ -1019,39 +1020,11 @@ const styles = StyleSheet.create({
   },
   Object {
     "info": Array [
-      "Adding cleanup postinstall task to the example app",
-    ],
-  },
-  Object {
-    "readFileSyncFromPath": "./react-native-alice-bobbi/example/package.json",
-  },
-  Object {
-    "json": "{
-  \\"name\\": \\"x\\",
-  \\"scripts\\": {
-    \\"test\\": \\"exit 1\\",
-    \\"postinstall\\": \\"node ../scripts/examples_postinstall.js\\"
-  }
-}
-",
-    "options": Object {
-      "fs": Object {
-        "ensureDir": [Function],
-        "outputFile": [Function],
-        "readFileSync": [Function],
-        "writeFileSync": [Function],
-      },
-      "spaces": 2,
-    },
-    "writeFileSyncToPath": "./react-native-alice-bobbi/example/package.json",
-  },
-  Object {
-    "info": Array [
       "Linking the new module library to the example app",
     ],
   },
   Object {
-    "commandSync": "yarn add file:../",
+    "commandSync": "yarn add link:../",
     "options": Object {
       "cwd": "./react-native-alice-bobbi/example",
       "stdio": "inherit",
