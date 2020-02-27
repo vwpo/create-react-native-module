@@ -1,5 +1,8 @@
 module.exports = [{
-  name: () => 'scripts/examples_postinstall.js',
+  name: ({ exampleSymlinkDisabled }) =>
+    exampleSymlinkDisabled
+      ? 'scripts/examples_postinstall.js'
+      : null,
   content: ({ exampleName }) =>
     `#!/usr/bin/env node
 
