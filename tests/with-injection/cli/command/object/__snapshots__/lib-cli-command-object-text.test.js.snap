@@ -67,6 +67,10 @@ Object {
       "description": "Generate an example project and links the library module to it, requires both react-native-cli and yarn to be installed globally",
     },
     Object {
+      "command": "--example-symlink-disabled",
+      "description": "DEPRECATED: do \`yarn add file:../'\` instead of \`yarn add link:../\` in a generated example project, and add a postinstall script",
+    },
+    Object {
       "command": "--example-name [exampleName]",
       "default": "example",
       "description": "Name for the example project",
