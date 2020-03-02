@@ -15,6 +15,7 @@ test('create alice-bobbi module with example, with config options', () => {
     authorEmail: 'contact@alice.me',
     license: 'ISC',
     generateExample: true,
+    exampleSymlinkDisabled: true,
     exampleName: 'test-demo',
     exampleReactNativeVersion: 'react-native@0.60',
     useAppleNetworking: true,
