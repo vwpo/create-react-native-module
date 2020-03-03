@@ -953,31 +953,6 @@ const styles = StyleSheet.create({
 
 <<<<<<<< ======== >>>>>>>>
 ",
-  Object {
-    "call": "fs.readFileSync",
-    "jsonFilePath": "./react-native-alice-bobbi/test-demo/package.json",
-  },
-  Object {
-    "call": "fs.writeFileSync",
-    "filePath": "./react-native-alice-bobbi/test-demo/package.json",
-    "json": "{
-  \\"name\\": \\"example\\",
-  \\"scripts\\": {
-    \\"test\\": \\"echo 'not implemented' && exit 1\\",
-    \\"postinstall\\": \\"node ../scripts/examples_postinstall.js\\"
-  }
-}
-",
-    "options": Object {
-      "fs": Object {
-        "ensureDir": [Function],
-        "outputFile": [Function],
-        "readFileSync": [Function],
-        "writeFileSync": [Function],
-      },
-      "spaces": 2,
-    },
-  },
   "* execa.commandSync command: yarn add link:../ options: {\\"cwd\\":\\"./react-native-alice-bobbi/test-demo\\",\\"stdio\\":\\"inherit\\"}
 ",
   "* execa.commandSync command: pod --version options: {\\"cwd\\":\\"./react-native-alice-bobbi/test-demo/ios\\",\\"stdio\\":\\"inherit\\"}
