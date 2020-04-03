@@ -58,6 +58,7 @@ test('create alice-bobbi module using mocked lib with logging, with example, for
     authorEmail: 'contact@alice.me',
     license: 'ISC',
     generateExample: true,
+    exampleWithFileLink: true,
   };
 
   await lib(options);
