@@ -158,6 +158,16 @@ Array [
   Object {
     "option": Object {
       "args": Array [
+        "--example-with-file-link",
+        "DEPRECATED: do \`yarn add file:../'\` instead of \`yarn add link:../\` in a generated example project, and add a postinstall script",
+        [Function],
+        undefined,
+      ],
+    },
+  },
+  Object {
+    "option": Object {
+      "args": Array [
         "--example-name [exampleName]",
         "Name for the example project",
         [Function],
